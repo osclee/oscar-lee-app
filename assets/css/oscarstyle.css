@@ -1,0 +1,151 @@
+:root {
+    /* --color1: #011936;
+    --color2: #F9DC5C;
+    --color3: #ED254E;
+    --color4: #C2EABD;
+    --color5: #465362; */
+
+    /* --color1: #151515; https://coolors.co/151515-a63d40-e9b872-90a959-6494aa
+    --color2: #A63D40;
+    --color3: #E9B872;
+    --color4: #90A959;
+    --color5: #6494AA; */
+
+    /* --background: #2f352e;
+    --title: #F78E69;
+    --text: #F1BB87;
+    --link: #ABE188;
+    --subtitle: #F7EF99; */
+
+    --background: #2D1E2F;
+    --title: #F72C25;
+    --text: #F7B32B;
+    --link: #A9E5BB;
+    --subtitle: #FCF6B1;
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 14pt;
+    /* #FFA630, #D7E8BA, #4DA1A9, #2E5077, #611C35 */
+}
+
+h1 {
+    color: var(--title);
+    text-shadow: 0 0 2px var(--title), 0 0 5px var(--title);
+}
+
+h2 {
+    color: var(--title);
+    text-shadow: 0 0 1px var(--title), 0 0 3px var(--title);
+}
+
+h3 {
+    color: var(--title);
+    text-shadow: 0 0 1px var(--title), 0 0 2px var(--title); 
+}
+
+h4 {
+    color: var(--title);
+    font-weight: 600;
+    /* text-shadow: 0 0 1px var(--color3), 0 0 2px var(--color3);  */
+}
+
+h5 {
+    color: var(--text);
+    text-shadow: 0 0 1px var(--text), 0 0 2px var(--text); 
+}
+
+p, ul, li {
+    color: var(--text)
+}
+
+button {
+    background-color: var(--link);
+    color: var(--background);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 14pt;
+    filter:drop-shadow(0 0 .2rem var(--link));
+}
+
+button:hover {
+    filter:drop-shadow(0 0 1rem var(--link));
+  }
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.content-div {
+    margin-top: 1em;
+    padding-left: .6em;
+    padding-right: .6em;
+    
+}
+
+.active-link {
+    color: var(--link);
+    text-shadow: 0 0 1px var(--link), 0 0 3px var(--link);
+    font-weight: bold;
+  }
+
+.inactive-header-link {
+    color: var(--title);
+    text-decoration: none;
+}
+
+.inactive-header-link:visited{
+    color: var(--title);
+    text-decoration: none;
+}
+
+.inactive-header-link:hover {
+    text-shadow: 0 0 1px var(--title), 0 0 8px var(--title);
+}
+  
+.inactive-link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.inactive-link:visited{
+    color: var(--link);
+    text-decoration: none;
+}
+
+.inactive-link:hover {
+    text-shadow: 0 0 1px var(--link), 0 0 3px var(--link);
+}
+
+.horizontal-line {
+    border: 1px solid var(--subtitle);
+}
+
+.date {
+    margin-top: 0;
+    font-weight: 400;
+    color: var(--subtitle)
+  }
+
+  .center-div {
+    margin-top:2em;
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;   /* Center vertically */
+  /* height: 200px; Set a height for the parent */
+}
