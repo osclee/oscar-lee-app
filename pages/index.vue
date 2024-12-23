@@ -1,7 +1,7 @@
 <template>
     <div class="content-div">
         <p>Hello! My name is Oscar Lee.</p>
-        <p>I am a Dartmouth College alumni and live in Boston, Massachusetts, working as a product software engineer
+        <p>I am a Dartmouth College alumnus and live in Boston, Massachusetts, working as a product software engineer
             at <a class="inactive-link" target="_blank" href="https://www.wolterskluwer.com/en">Wolters Kluwer</a>
             on <a class="inactive-link" target="_blank"
                 href="https://www.wolterskluwer.com/en/solutions/uptodate">UpToDate</a>, a

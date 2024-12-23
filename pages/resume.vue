@@ -8,7 +8,7 @@
     <p>
       In October of 2024, I was promoted to Product Software Engineer. With this promotion, I had the opportunity
       to move to a new team within UpToDate tasked with developing AI solutions using machine learning and natural language
-      processing to improve UpToDate's search engine. Since the team change, I've been working on with a skilled team of
+      processing to improve UpToDate's search engine. Since the team change, I've been working with a skilled team of
       data scientists and software engineers to build new features to our sandbox and production environments. One project I'm proud of
       is the successful rollout of new features in time for the <a class="inactive-link" target="_blank"
         href="https://www.wolterskluwer.com/en/expert-insights/focusing-ai-benefit-care-teams-harnessing-data-consumer-centric-care">2024
@@ -92,14 +92,13 @@
       Computer Science, of which I completed a BA. My studies in Computer Science focused heavily on building a strong foundation for software engineering
       which I wanted to pursue as a career. However, the broad curriculum of the Computer Science Department allowed me to study not only software engineering, 
       but also discrete math and algorithms, machine learning, and computer architecture, compilers, and operating systems. I even got to create 
-      a video game for my senior design project called <a class="inactive-header-link" target="_blank" href="https://arkendorf.itch.io/to-arithmos">To Arithmos</a>.
+      a video game for my senior design project called <a class="inactive-link" target="_blank" href="https://arkendorf.itch.io/to-arithmos">To Arithmos</a>.
     </p>
     
     <p>
       Dartmouth focuses on providing a well rounded education, and I decided to pick up another major in Religious studies because 
-      the major allowed to me learn about the world around me in new ways. I really enjoyed learning about African Religions, Buddhism, 
-      and Islam - religions that I hadn't been exposed to in the past. Taking on this second major was a lot of work, but it allowed me to 
-      learn skills like critical reading and analysis, writing, and strong communication. 
+      the let me learn about the world around me in new ways. I really enjoyed learning about African Religions, Buddhism, 
+      and Islam - religions that I hadn't been exposed to in the past. Taking on this second major was a lot of work, but it taught me skills like critical reading and analysis, writing, and strong communication. 
     </p>
     <h4>Activities</h4>
     <p>I completed 4 years on the varsity heavyweight rowing team. I shared many successes throughout the years on the team, including
