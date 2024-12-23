@@ -149,3 +149,7 @@ button:hover {
   align-items: center;   /* Center vertically */
   /* height: 200px; Set a height for the parent */
 }
+
+.number {
+    text-shadow: 0 0 1px var(--link), 0 0 3px var(--text);
+}
