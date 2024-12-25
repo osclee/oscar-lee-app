@@ -97,7 +97,7 @@
     
     <p>
       Dartmouth focuses on providing a well rounded education, and I decided to pick up another major in Religious studies because 
-      the let me learn about the world around me in new ways. I really enjoyed learning about African Religions, Buddhism, 
+      the field let me learn about the world around me in new ways. I really enjoyed learning about African Religions, Buddhism, 
       and Islam - religions that I hadn't been exposed to in the past. Taking on this second major was a lot of work, but it taught me skills like critical reading and analysis, writing, and strong communication. 
     </p>
     <h4>Activities</h4>
