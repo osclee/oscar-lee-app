@@ -45,14 +45,12 @@ h2 {
 }
 
 h3 {
-    color: var(--title);
-    text-shadow: 0 0 1px var(--title), 0 0 1px var(--title);
+    color: var(--text);
 }
 
 h4 {
-    color: var(--title);
+    color: var(--text);
     font-weight: 600;
-    /* text-shadow: 0 0 1px var(--color3), 0 0 2px var(--color3);  */
 }
 
 h5 {

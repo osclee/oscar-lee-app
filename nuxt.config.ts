@@ -17,7 +17,6 @@ export default defineNuxtConfig({
     routes: [
       '/',
       '/links',
-      '/funfacts',
       '/resume'
     ]
   }

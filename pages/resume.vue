@@ -131,7 +131,8 @@
         but it taught me skills like critical reading and analysis, writing, and strong communication.
       </p>
       <h4>Activities</h4>
-      <p>I completed 4 years on the varsity heavyweight rowing team. I shared many successes throughout the years on the
+      <p>I completed 4 years on the <a class="inactive-link" target="_blank"
+        href="https://dartmouthsports.com/sports/mens-rowing">varsity heavyweight rowing team</a>. I shared many successes throughout the years on the
         team, including
         multiple Eastern Sprints medals and an IRA medal. However, what my time on the team taught me the most was grit,
         perseverance,
