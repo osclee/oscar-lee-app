@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": ".output/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "site": "oscar-lee-personal-site",
+    "cleanUrls": true,
+    "rewrites": [{ "source": "**", "destination": "/" }]
+    
+  }
+}

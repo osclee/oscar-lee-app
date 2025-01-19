@@ -6,7 +6,7 @@
         <hr class="horizontal-line">
 
         <h3>I made a little tic tac toe game</h3>
-        <iframe :src=tictactoe width="800" height="800"></iframe>
+        <iframe :src=tictactoe frameborder="0" width="800" height="800"></iframe>
 
         <hr class="horizontal-line">
 

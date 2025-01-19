@@ -5,16 +5,13 @@
         <nav>
             <ul>
                 <li>
-                    <NuxtLink active-class="active-link" :class="{'inactive-link': !isActive('/')}" to="/">Home</NuxtLink>
+                    <NuxtLink active-class="active-link" class="inactive-link" to="/">Home</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink active-class="active-link" :class="{'inactive-link': !isActive('/resume')}" to="/resume">Resume</NuxtLink>
+                    <NuxtLink active-class="active-link" class="inactive-link" to="/resume">Resume</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink active-class="active-link" :class="{'inactive-link': !isActive('/funfacts')}" to="/funfacts">Fun Facts</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink active-class="active-link" :class="{'inactive-link': !isActive('/links')}" to="/links">Links</NuxtLink>
+                    <NuxtLink active-class="active-link" class="inactive-link" to="/links">Links</NuxtLink>
                 </li>
                 
             </ul>
@@ -25,17 +22,6 @@
       
     </div>
 </template>
-
-<script>
-export default {
-  methods: {
-    // Method to check if the current route is the one passed as an argument
-    isActive(route) {
-      return this.$route.path === route;
-    }
-  }
-}
-</script>
 
 <style scoped>
 /* .horizontal-links {
