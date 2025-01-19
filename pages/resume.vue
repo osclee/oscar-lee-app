@@ -1,5 +1,12 @@
 <template>
   <div class="content-div">
+    <div class="content-section" style="display: flex;">
+      <h3>Prefer a one page pdf? View and download </h3>
+      <button class="resume-link-button"
+                        onclick="window.open('https://drive.google.com/file/d/15dm-C3_isR6TZlVmi7bkWwBMzSaVdltc/view', '_blank');">
+                        here
+                    </button>
+    </div>
     <div class="content-section">
       <h2 style="margin-bottom: 0; margin-top: 0;"><a class="inactive-header-link" target="_blank"
           href="https://www.wolterskluwer.com">Wolters Kluwer</a></h2>
@@ -141,3 +148,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.resume-link-button {
+  margin-top: 0; margin-left: 1rem;
+}
+</style>
