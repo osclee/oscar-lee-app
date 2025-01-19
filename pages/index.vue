@@ -26,7 +26,6 @@
                 <p>
                     I love staying fit and being outside, I rowed throughout high school and at Dartmouth College but
                     have now turned by athletic pursuits to running.
-                    I recently competed at the Philadelphia Marathon.
                 </p>
                 <div class="center-div">
                     <NuxtLink active-class="active-link" to="/resume"><button>Resume</button></NuxtLink>

@@ -23,7 +23,8 @@
     --text: #403D39;
     --link: #DB3069;
     --subtitle: #EB5E28;
-    --shadow: #c4480031;
+    --shadow-darker: #c4480031;
+    --shadow: #c4480013;
 }
 
 body {
@@ -94,7 +95,7 @@ button:hover {
 }
 
 .content-div {
-    margin-top: 1em;
+    margin-top: 2em;
     padding-left: .6em;
     padding-right: .6em;
 
@@ -191,4 +192,8 @@ button:hover {
 
 .intro {
     margin-left: 3rem;
+}
+
+.thematic-break {
+    border: 1px double var(--shadow-darker);
 }

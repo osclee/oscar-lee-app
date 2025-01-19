@@ -1,11 +1,11 @@
 <template>
   <div class="content-div">
-    <div class="content-section" style="display: flex;">
-      <h3>Prefer a one page pdf? View and download </h3>
+    <div class="content-section" style="display: flex; background-color: var(--shadow);">
+      <h3>View One-Page PDF Resume</h3>
       <button class="resume-link-button"
-                        onclick="window.open('https://drive.google.com/file/d/15dm-C3_isR6TZlVmi7bkWwBMzSaVdltc/view', '_blank');">
-                        here
-                    </button>
+        onclick="window.open('https://drive.google.com/file/d/15dm-C3_isR6TZlVmi7bkWwBMzSaVdltc/view', '_blank');">
+        here
+      </button>
     </div>
     <div class="content-section">
       <h2 style="margin-bottom: 0; margin-top: 0;"><a class="inactive-header-link" target="_blank"
@@ -40,6 +40,8 @@
         natural language processing.
       </p>
 
+      <hr class="thematic-break" />
+
       <h4 style="margin-bottom: 0;">Associate Product Software Engineer</h4>
       <p class="date">2023-2024</p>
       <p>
@@ -56,6 +58,8 @@
         stakeholders, designed the replacement architecture from the ground up, and documented a solution for successful
         implementation and rollout.
       </p>
+
+      <hr class="thematic-break" />
 
       <h4 style="margin-bottom: 0;">Skills</h4>
       <p>
@@ -87,6 +91,8 @@
         as well as researching and prototyping the feasibility to integrating Google Translate.
       </p>
 
+      <hr class="thematic-break" />
+
       <h4 style="margin-bottom: 0;">Internship 1</h4>
       <p class="date">2021</p>
       <p>
@@ -100,6 +106,9 @@
         including the importance of testing, tracking work,
         adding security features, and how to work with others.
       </p>
+
+      <hr class="thematic-break" />
+
       <h4 style="margin-bottom: 0;">Skills</h4>
       <p>
         I've utilized the following technical and non-technical skills:
@@ -137,9 +146,13 @@
         and Islam - religions that I hadn't been exposed to in the past. Taking on this second major was a lot of work,
         but it taught me skills like critical reading and analysis, writing, and strong communication.
       </p>
+
+      <hr class="thematic-break" />
+
       <h4>Activities</h4>
       <p>I completed 4 years on the <a class="inactive-link" target="_blank"
-        href="https://dartmouthsports.com/sports/mens-rowing">varsity heavyweight rowing team</a>. I shared many successes throughout the years on the
+          href="https://dartmouthsports.com/sports/mens-rowing">varsity heavyweight rowing team</a>. I shared many
+        successes throughout the years on the
         team, including
         multiple Eastern Sprints medals and an IRA medal. However, what my time on the team taught me the most was grit,
         perseverance,
@@ -151,6 +164,7 @@
 
 <style scoped>
 .resume-link-button {
-  margin-top: 0; margin-left: 1rem;
+  margin-top: 0;
+  margin-left: 1rem;
 }
 </style>
