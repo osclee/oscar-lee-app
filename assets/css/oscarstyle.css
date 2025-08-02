@@ -18,7 +18,7 @@
     --subtitle: #F7EF99; */
 
     --background: #FFFCF2;
-    --background2: #CCC5B9;
+    --background2: #ccc5b93b;
     --title: #C44900;
     --text: #403D39;
     --link: #DB3069;
@@ -103,7 +103,7 @@ button:hover {
 
 .active-link {
     color: var(--link);
-    text-shadow: 0 0 1px var(--link), 0 0 2px var(--link);
+    text-shadow: 0 0 1px var(--link), 0 0 1px var(--link);
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .inactive-header-link:hover {
-    text-shadow: 0 0 1px var(--title), 0 0 8px var(--title);
+    text-shadow: 0 0 1px var(--title), 0 0 4px var(--title);
 }
 
 .inactive-link {

@@ -3,7 +3,7 @@
     <div class="content-section" style="display: flex; background-color: var(--shadow);">
       <h3>View One-Page PDF Resume</h3>
       <button class="resume-link-button"
-        onclick="window.open('https://drive.google.com/file/d/15dm-C3_isR6TZlVmi7bkWwBMzSaVdltc/view', '_blank');">
+        onclick="window.open('https://drive.google.com/file/d/1TkUWiwh2LtpsIziBvQQrH3wb9knWAKZG/view', '_blank');">
         here
       </button>
     </div>
@@ -14,8 +14,7 @@
       <h4 style="margin-bottom: 0;">Product Software Engineer</h4>
       <p class="date">2024-present</p>
       <p>
-        In October of 2024, I was promoted to Product Software Engineer. With this promotion, I had the opportunity
-        to move to a new team within UpToDate tasked with developing AI solutions using machine learning and natural
+        In October of 2024, I moved to a new team within UpToDate tasked with developing AI solutions using machine learning and natural
         language
         processing to improve UpToDate's search engine. Since the team change, I've been working with a skilled team of
         data scientists and software engineers to build new features to our sandbox and production environments. One
@@ -23,6 +22,13 @@
         is the successful rollout of new features in time for the <a class="inactive-link" target="_blank"
           href="https://www.wolterskluwer.com/en/expert-insights/focusing-ai-benefit-care-teams-harnessing-data-consumer-centric-care">2024
           HLTH Conference</a> and enablement for all users across UpToDate.
+      </p>
+
+      <p>
+        In the spring of 2025, I helped lead the rollout of verbatium search in UpToDate, allow users to use natural language queries
+        in UpToDate's search engine. Working with multiple stakeholders, we designed and implemented a solution that safely and accurately
+        returned medical snippets and content to users. My roll in this project was to design the backend functionality and provide our
+        search team with the necessary APIs to implement the feature.
       </p>
 
       <p>
@@ -34,9 +40,9 @@
       </p>
 
       <p>
-        Going into 2025, I'm excited to keep improving user experience within UpToDate by utilizing the latest
+        I'm excited to keep improving user experience within UpToDate by utilizing the latest
         advancements in Computer Science and
-        technology. My goal is to become a better front-end engineer, as well as learn more about machine learning and
+        technology. My goal is to become a better full stack engineer, as well as learn more about machine learning and
         natural language processing.
       </p>
 

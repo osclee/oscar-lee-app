@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="title">Oscar Lee</h1>
+    <h1 class="title" style="font-size: 2.5em;">Oscar Lee</h1>
     <div class="header">
       <nav>
         <ul>
