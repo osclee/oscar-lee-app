@@ -19,30 +19,43 @@
 
     --background: #FFFCF2;
     --background2: #ccc5b93b;
-    --title: #C44900;
+    --title: #000000;
     --text: #403D39;
-    --link: #DB3069;
-    --subtitle: #EB5E28;
-    --shadow-darker: #c4480031;
-    --shadow: #c4480013;
+    --link: #db3330; /** #DB3069 **/
+    --subtitle: #4a1211;
+    --shadow-darker: rgb(145, 85, 85); /**#c4480031 **/
+    --shadow: #2b0909;
+    --text-secondary: #000000;
+}
+
+.dark {
+    --background: #1a1a1a;
+    --background2: #2a2a2a;
+    --title: #ffffff;
+    --text: #e0e0e0;
+    --link: #e08584; /** #ff6b9d **/
+    --subtitle: #cccccc;
+    --shadow-darker: #00000080;
+    --shadow: #00000040;
+    --text-secondary: #ffffff;
 }
 
 body {
     background-color: var(--background);
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 16px;
+    line-height: 1.45;
     /* #FFA630, #D7E8BA, #4DA1A9, #2E5077, #611C35 */
 }
 
 h1 {
     color: var(--title);
-    text-shadow: 0 0 1px var(--title), 0 0 2px var(--title);
+    text-shadow: 0 0 1px var(--title), 0 0 1px var(--title);
 }
 
 h2 {
     color: var(--title);
-    text-shadow: 0 0 1px var(--title), 0 0 1px var(--title);
 }
 
 h3 {
@@ -75,7 +88,7 @@ button {
     transition: all 0.3s ease;
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 14px;
     filter: drop-shadow(0 0 .2rem var(--link));
 }
 
@@ -150,6 +163,8 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .number {
@@ -164,19 +179,47 @@ button:hover {
     background-color: var(--background2);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px var(--shadow);
+    box-shadow: 0 2px 3px var(--shadow);
+    /* border: 1px solid var(--shadow); */
 }
 
 @media (max-width : 700px) {
     .intro-section {
-        display: inline-block;
-        align-items: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 24px;
+        margin-bottom: 12px;
         background-color: var(--background2);
-        padding: 20px;
+        padding: 16px;
         border-radius: 10px;
-        box-shadow: 0 4px 6px var(--shadow);
+        box-shadow: 0 2px 3px var(--shadow);
+    }
+    .intro {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .profile-img {
+        width: 120px;
+        max-width: 30%;
+        aspect-ratio: 1/1;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
+    .center-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .content-div {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    button {
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }
 
@@ -187,13 +230,58 @@ button:hover {
     background-color: var(--background2);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px var(--shadow);
+    box-shadow: 0 2px 3px var(--shadow);
+    /* border: 1px solid var(--shadow); */
 }
 
 .intro {
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .thematic-break {
     border: 1px double var(--shadow-darker);
+}
+
+.resume-link-button {
+    margin: 0;
+}
+
+.center-div h3 {
+    margin: 0;
+}
+
+/* Responsive helpers and image handling */
+* { box-sizing: border-box; }
+
+img, picture, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.profile-img {
+        width: 20%;
+        max-width: 160px;
+        aspect-ratio: 1/1;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid var(--link);
+        object-fit: cover;
+        object-position: 50% 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.content-div, .content-section, .intro-section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 420px) {
+    .profile-img { width: 110px; max-width: 40%; aspect-ratio: 1/1; height: auto; border-radius: 50%; object-fit: cover; object-position: 50% 15%; }
+    body { font-size: 14px; }
+    .content-section, .intro-section { padding: 12px; margin: 0.6rem; }
 }

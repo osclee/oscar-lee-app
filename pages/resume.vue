@@ -1,7 +1,7 @@
 <template>
   <div class="content-div">
     <div class="content-section" style="display: flex; background-color: var(--shadow);">
-      <h3>View One-Page PDF Resume</h3>
+      <h3>View Resume </h3>
       <button class="resume-link-button"
         onclick="window.open('https://drive.google.com/file/d/1TkUWiwh2LtpsIziBvQQrH3wb9knWAKZG/view', '_blank');">
         here
@@ -11,8 +11,30 @@
       <h2 style="margin-bottom: 0; margin-top: 0;"><a class="inactive-header-link" target="_blank"
           href="https://www.wolterskluwer.com">Wolters Kluwer</a></h2>
       <p class="date">2023-present</p>
+
+      <h4 style="margin-bottom: 0;">Senior Product Software Engineer</h4>
+      <p class="date">2025-present</p>
+      <p>
+        In 2025, I was pulled into one of Wolters Kluwer's most high profile projects, <a class="inactive-link" target="_blank"
+                        href="https://www.wolterskluwer.com/en/solutions/uptodate/ai-clinical-decision-support">UpToDate Expert AI</a>, a generative AI solution for clinical support software. 
+        Our challenge was to build a mature, safe, and scalable project to deliver accurate medical information to clinicians at the point of case. 
+        As a hands on contributor, I worked with a team of skilled engineers to develop our AI agent, observability platforms, and integration points to roll out
+        our product across users.
+      </p>
+      <p>
+        As a senior software engineer on the project, I took on leadership responsibilities to drive the technical direction of the project, including:
+      </p>
+      <ul>
+        <li>Building our mobile application backend within a month to support mobile app AI functionality securly and efficiently. </li>
+        <li>Designing and implementing a new AI driven modalities for our application to handle dermatological image analysis. </li>
+        <li>Extending agent infrastructure to offer passage retrieval built upon vectorized search.</li>
+        <li>Implementing new observability patterns for our front end application.</li>
+      </ul>
+
+      <hr class="thematic-break" />
+
       <h4 style="margin-bottom: 0;">Product Software Engineer</h4>
-      <p class="date">2024-present</p>
+      <p class="date">2024-2025</p>
       <p>
         In October of 2024, I moved to a new team within UpToDate tasked with developing AI solutions using machine learning and natural
         language
@@ -169,8 +191,5 @@
 </template>
 
 <style scoped>
-.resume-link-button {
-  margin-top: 0;
-  margin-left: 1rem;
-}
+
 </style>
